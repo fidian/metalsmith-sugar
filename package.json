@@ -1,6 +1,6 @@
 {
-    "name": "metalsmith-sugar",
-    "version": "1.2.0",
+    "name": "@fidian/metalsmith-sugar",
+    "version": "1.2.1",
     "description": "Additional helpers to make your Metalsmith experience even sweeter.",
     "main": "lib/index.js",
     "scripts": {
@@ -9,16 +9,16 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/connected-world-services/metalsmith-sugar.git"
+        "url": "git+https://github.com/fidian/metalsmith-sugar.git"
     },
     "keywords": [
     ],
     "author": "",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/connected-world-services/metalsmith-sugar/issues"
+        "url": "https://github.com/fidian/metalsmith-sugar/issues"
     },
-    "homepage": "https://github.com/connected-world-services/metalsmith-sugar#readme",
+    "homepage": "https://github.com/fidian/metalsmith-sugar#readme",
     "devDependencies": {
         "codecov": "~3.8.2",
         "eslint": "~8.9.0",
