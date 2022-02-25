@@ -1,6 +1,6 @@
 {
     "name": "@fidian/metalsmith-sugar",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Additional helpers to make your Metalsmith experience even sweeter.",
     "main": "lib/index.js",
     "scripts": {
@@ -24,12 +24,15 @@
         "eslint": "~8.9.0",
         "istanbul": "~0.4.5",
         "jasmine": "~4.0.2",
+        "metalsmith": "~2.4.2",
         "nodemon": "~2.0.15"
     },
     "dependencies": {
         "debug": "~4.3.3",
-        "metalsmith": "~2.4.2",
         "metalsmith-timer": "~0.0.2"
+    },
+    "peerDependencies": {
+        "metalsmith": "~2.4.2"
     },
     "engines": {
         "node": ">= 4.0.0"
