@@ -1,11 +1,11 @@
 {
     "name": "@fidian/metalsmith-sugar",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "Additional helpers to make your Metalsmith experience even sweeter.",
     "main": "lib/index.js",
     "scripts": {
-        "reinstall": "rm -rf node_modules && npm install",
-        "test": "script/test",
+        "reinstall": "rm -rf node_modules package-lock.json && npm install",
+        "test": "istanbul cover jasmine",
         "watch": "script/watch"
     },
     "repository": {
@@ -21,15 +21,13 @@
     },
     "homepage": "https://github.com/fidian/metalsmith-sugar#readme",
     "devDependencies": {
-        "codecov": "~3.8.2",
-        "eslint": "~9.6.0",
         "istanbul": "~0.4.5",
-        "jasmine": "~5.1.0",
+        "jasmine": "~5.2.0",
         "metalsmith": "~2.6.3",
         "nodemon": "~3.1.4"
     },
     "dependencies": {
-        "debug": "~4.3.5",
+        "debug": "~4.3.6",
         "metalsmith-timer": "~0.0.2"
     },
     "peerDependencies": {
