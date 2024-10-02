@@ -1,6 +1,6 @@
 {
     "name": "@fidian/metalsmith-sugar",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "description": "Additional helpers to make your Metalsmith experience even sweeter.",
     "main": "lib/index.js",
     "scripts": {
@@ -22,12 +22,12 @@
     "homepage": "https://github.com/fidian/metalsmith-sugar#readme",
     "devDependencies": {
         "istanbul": "~0.4.5",
-        "jasmine": "~5.2.0",
+        "jasmine": "~5.3.0",
         "metalsmith": "~2.6.3",
-        "nodemon": "~3.1.4"
+        "nodemon": "~3.1.7"
     },
     "dependencies": {
-        "debug": "~4.3.6",
+        "debug": "~4.3.7",
         "metalsmith-timer": "~0.0.2"
     },
     "peerDependencies": {
